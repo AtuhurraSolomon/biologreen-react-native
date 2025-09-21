@@ -18,7 +18,7 @@ import {
 } from './types';
 
 // Constants for capture logic
-const CAPTURE_DELAY_MS = 500; // Face must be stable for this long
+const CAPTURE_DELAY_MS = 500; 
 
 type ApiCall = (base64: string) => Promise<FaceAuthResponse>;
 type Resolver = (response: FaceAuthResponse) => void;
